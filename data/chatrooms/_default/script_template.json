@@ -1,0 +1,17 @@
+{
+"Script": {
+              "Date": "Some_Date_Here",
+              "Parts": [
+                {
+                "Name": "start",
+                "Dialog": [{
+                        "yuy": "hey"
+                    },
+                    {
+                        "yuy": "What's up?"
+                    }
+                ],
+                "Menu": null
+            }]
+          }
+}
