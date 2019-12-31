@@ -1,8 +1,6 @@
 {
-      "name": "yuy",
-      "image": "yuy.pdf"
-}, 
-{
-      "name": "harry",
-      "image": "harry.pdf"
+      "Characters": 
+        [
+            {"name": "yuy", "image": "image.pdf"}
+        ]
 }
