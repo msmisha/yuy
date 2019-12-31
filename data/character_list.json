@@ -1,9 +1,7 @@
 {
-      "Characters": 
+  "Characters": 
         [
-            {
-				"name": "yuy", 
-             	"image": "image.pdf"
-			}
+            {"name": "yuy", 
+            "image": "image.pdf"}
         ]
 }
