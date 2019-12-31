@@ -1,0 +1,28 @@
+{
+"Script": {
+	  "Date": "Some_Date_Here",
+	  "Parts": [
+		  {"Name": "start",
+		   "Dialog": 
+			   [{"yuy": "hey"},
+			   	{"yuy": "What's up?"}],
+			  "Menu": [
+				  
+				  {"said": "Hello",
+				   "command": {
+					   "jump": "next"
+				   }},
+				  
+				  {"said": "it's over",
+				   "command": {
+					   "end": null
+				   }},
+				  
+				  {"said": "show me you love me!",
+				   "command": {
+					   "display": "image.pdf"
+				   }}
+			 ]}
+		]
+  }
+}
