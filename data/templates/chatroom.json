@@ -3,11 +3,6 @@
         "Name": "template",
         "Characters": [],
         "Latest": "Some_Date_Here",
-        "Scripts": [{
-          "Script": {
-              "Date": "Some_Date_Here",
-              "Parts": [{}]
-          }
-        }]
+        "Scripts": []
     }
 }
