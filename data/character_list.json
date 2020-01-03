@@ -1,1 +1,4 @@
-[{"id":"92D59F42-1B60-4021-88E9-5C7668B03CBB","name":"harry","image":null,"tag":"h"},{"id":"03F4166C-0A88-41F0-8879-3C9EDD9E1A36","name":"ron","image":null,"tag":"r"},{"id":"78a1a6dd-0fbb-436b-96bd-75fe50daee1b","name":"yuy","image":"image.pdf","tag":"y"}]
+{
+  "Characters" : 
+  [{"id":"92D59F42-1B60-4021-88E9-5C7668B03CBB","name":"harry","image":null,"tag":"h"},{"id":"03F4166C-0A88-41F0-8879-3C9EDD9E1A36","name":"ron","image":null,"tag":"r"},{"id":"78a1a6dd-0fbb-436b-96bd-75fe50daee1b","name":"yuy","image":"image.pdf","tag":"y"}]
+}
