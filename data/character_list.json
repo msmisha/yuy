@@ -1,6 +1,7 @@
 {
         "Characters": [
-            {"name": "yuy", 
-            "image": "image.pdf"}
+            {"id": "78a1a6dd-0fbb-436b-96bd-75fe50daee1b",
+             "name": "yuy", 
+             "image": "image.pdf"}
         ]
 }
