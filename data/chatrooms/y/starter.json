@@ -1,0 +1,98 @@
+{
+    "Chatroom" : {
+        "Name": "starter",
+        "Characters": [
+            {"id": "78a1a6dd-0fbb-436b-96bd-75fe50daee1b", "name": "yuy", "image": "yuy", "tag": "y"}
+        ],
+        "Latest": "12-29-2019",
+        "Scripts": [{
+        "Script": {
+              "Date": "12-29-2019",
+              "Parts": [
+                  {"Name": "_start",
+                   "Dialog":
+                       [{"y": "Wow, it's so great to meet you ${name}!"},
+                        {"y": "I'm yuy."},
+                        {"y": "I'm here to teach you how to use this app! It's super simple."},
+                        {"y": "Well first, I think I should ask - are you a cat person, or a dog person?"}],
+                      "Menu": [
+                          {"said": "Cats all the way! 🐈",
+                           "command": {
+                               "jump": "cat"
+                           }},
+                          
+                          {"said": "Dogs, of course! 🐕",
+                           "command": {
+                               "jump": "dog"
+                           }},
+                          
+                          {"said": "Oh... I love them both so much!",
+                           "command": {
+                               "jump": "both"
+                           }},
+                          {"said": "Neither, actually.",
+                            "command": {
+                                "jump": "neither"
+                        }}
+                     ]},
+                    {"Name": "cat",
+                        "Dialog": 
+                            [{"y": "I totally love cats too!"}],
+                        "Menu": null
+                    },
+                    {"Name": "dogs",
+                        "Dialog": 
+                            [{"y": "Dogs are like, the most amazing things EVER!"}],
+                        "Menu": null
+                    }, 
+                    {"Name": "both",
+                        "Dialog":
+                            [{"y": "Cats and dogs both have their great points, I agree!"},
+                            {"y": "Cats are so independent and cool"},
+                            {"y": "And dogs are so goofy! hahah"}],
+                        "Menu": null
+                    },
+                    {"Name": "neither",
+                        "Dialog":[{"y": "Well, that's okay!"}],
+                        "Menu": null
+                    }, 
+                    {"Name": "_continue",
+                        "Dialog": [{"y": "And look at that! You've made your first choice in yuy!"},
+                                    {"y": "yayy!!! 🎉🎉🎉"},
+                                    {"y": "Now that's not to say that's all I'm here for!"},
+                                {"y": "Because really, I'm here for you."},
+                                {"y": "Everyday, I'll ask you about your day. When I do, I'll probably strat by asking how you're feeling."},
+                                {"y": "No time like the present to practice! How are you feeling today?"}
+                            ], 
+                            "Menu": [
+                                {"said": "I'm great!",
+                                    "command": {
+                                        "jump": "${script}great"
+                                    }
+                                },
+                                {"said": "I'm... okay.",
+                                    "command": {
+                                        "jump": "${script}okay"
+                                    }
+                                }, 
+                                {"said": "I could be better.",
+                                    "command": {
+                                        "jump": "${script}bad"
+                                    }
+                                }
+                            ]
+                    },
+                    {"Name": "_end",
+                        "Dialog": [{"y": "And now that you've told me how you're doing, I'll keep it in mind!"}, {"y": "As time goes on, I'll help you keep track of how you're feeling - you can check out your trends and everything on your profile page."},
+                            {"y": "Don't worry - you're the only one who sees this! But you can also save the data and show it to your therapist, or another Doctor if you need to."},
+                            {"y": "Oh yeah! Don't forget to edit your settings! I ask you how you're feeling up to 5 times a day, and if you'd like, I'll tell you little stories about what's going on in my day!"},
+                            {"y": "Add more friends from the Discover page to get other stories, and to have more friends checking in on you!"},
+                            {"y": "Sadly, I have to get off and go help someone else, but I'll talk to you later, ${name}!"},
+                            {"y": "♥️"}],
+                        "Menu": null
+                    }
+                ]
+          }
+        }]
+    }
+}
